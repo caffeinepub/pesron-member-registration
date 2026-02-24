@@ -1,0 +1,116 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 7,
+  "summary": "Website for PESRON member registration",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-member-registration-form-that-collects-full-name-email-address-phone-number-and-membership-type",
+      "title": "Create a member registration form that collects full name, email address, phone number, and membership type",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-display-success-confirmation-message-with-member-id-after-successful-registration-submission",
+      "title": "Display success confirmation message with member ID after successful registration submission",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-an-admin-view-to-list-all-registered-members-with-their-details-in-a-table-format",
+      "title": "Create an admin view to list all registered members with their details in a table format",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-design-a-professional-and-modern-visual-theme-with-a-cohesive-color-palette-avoiding-blue-and-purple-clean-typography-and-organized-layout-that-reflects-a-formal-membership-organization-aesthetic",
+      "title": "Design a professional and modern visual theme with a cohesive color palette (avoiding blue and purple), clean typography, and organized layout that reflects a formal membership organization aesthetic",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-modify-the-registration-form-to-support-dynamic-form-fields-that-will-be-defined-by-an-uploaded-form-structure-allowing-the-registration-process-to-accommodate-custom-fields-beyond-the-current-fullname-email-phonenumber-and-membershiptype",
+      "title": "Modify the registration form to support dynamic form fields that will be defined by an uploaded form structure, allowing the registration process to accommodate custom fields beyond the current fullName, email, phoneNumber, and membershipType",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-an-admin-interface-to-upload-and-configure-the-registration-form-structure-allowing-administrators-to-define-custom-fields-field-types-validation-rules-and-labels-in-malay-language",
+      "title": "Create an admin interface to upload and configure the registration form structure, allowing administrators to define custom fields, field types, validation rules, and labels in Malay language",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create member registration website for PESRON",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Implement backend data model and storage for PESRON member records with fields: id, fullName, email, phoneNumber, membershipType, registrationDate, and status",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Create backend method to submit new member registrations and return confirmation with member ID",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Create backend query method to retrieve all member registrations for admin display",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Enable online registration using form that will be uploaded later",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-11",
+      "summary": "Update the backend data model to store flexible member registration data that accommodates custom fields defined in the uploaded form structure, while maintaining backward compatibility with existing member records",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-12",
+      "summary": "Preserve the existing registration form layout and structure, ensuring all current form fields (full name, email, phone number, membership type, and dynamic custom fields) remain in their current visual arrangement and styling",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "PESRON Member Registration",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

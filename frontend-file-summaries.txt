@@ -1,0 +1,15 @@
+{
+  "frontend/src/App.tsx": "Root application component setting up router with three routes (registration, admin, form builder), query client, Internet Identity provider, and profile setup modal with proper layout integration.",
+  "frontend/src/components/Layout.tsx": "Main layout wrapper with header, navigation (conditionally showing admin links based on authentication and role), and footer with dynamic routing.",
+  "frontend/src/pages/RegisterPage.tsx": "Registration page that displays the page title, description, and renders the RegistrationForm component.",
+  "frontend/src/pages/AdminPage.tsx": "Admin-only page displaying members table with authentication and authorization checks, showing access denied alerts for unauthorized users.",
+  "frontend/src/components/RegistrationForm.tsx": "Dynamic registration form component that renders fields based on uploaded form structure from backend, supporting text, email, phone, textarea, dropdown, radio, and checkbox field types with validation.",
+  "frontend/src/components/MembersTable.tsx": "Table component displaying all registered members with standard fields and dynamically rendered custom field columns based on member data.",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for all backend operations including member registration with custom fields, form management (get/upload), user profile management, and admin role checking.",
+  "frontend/src/index.css": "Global styles with warm earth-tone OKLCH color system (terracotta, sand, sage) for both light and dark modes, avoiding blue and purple as specified.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with warm color palette, custom border radius, shadows, and Inter font family for professional typography.",
+  "frontend/src/components/FormBuilder.tsx": "Admin-only form builder component with tabs for building custom form fields and previewing the registration form, supporting field ordering, validation rules, and multiple field types.",
+  "frontend/src/components/LoginButton.tsx": "Authentication button component for Internet Identity login/logout with loading states and proper error handling.",
+  "frontend/src/components/ProfileSetup.tsx": "Modal dialog for first-time user profile setup requiring name input after Internet Identity authentication.",
+  "frontend/src/pages/FormBuilderPage.tsx": "Admin-only page for form builder interface with authentication and authorization guards."
+}

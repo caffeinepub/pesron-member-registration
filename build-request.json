@@ -1,0 +1,41 @@
+{
+  "kind": "build_request",
+  "title": "Maintain current form structure",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-11",
+      "text": "Preserve the existing registration form layout and structure, ensuring all current form fields (full name, email, phone number, membership type, and dynamic custom fields) remain in their current visual arrangement and styling",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "Kekalkan bentuk borang ya."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Registration form maintains its current field order and layout",
+        "All existing form fields (standard and dynamic) continue to render correctly",
+        "Form styling and visual presentation remain unchanged",
+        "Form validation behavior remains consistent with current implementation"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify the registration form component structure",
+    "Do not change form field ordering or layout",
+    "Preserve current form styling and theme"
+  ],
+  "nonGoals": [
+    "Adding new form fields",
+    "Changing form validation logic",
+    "Modifying form submission behavior",
+    "Updating form visual design"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}
